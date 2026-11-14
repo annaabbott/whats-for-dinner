@@ -1,0 +1,21 @@
+{
+  "name": "whats-for-dinner",
+  "version": "1.0.0",
+  "description": "A practical dinner suggestion app for choosing a meal from ingredients and dietary needs.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "whats-for-dinner": "./bin/whats-for-dinner.js"
+  },
+  "scripts": {
+    "start": "node ./bin/whats-for-dinner.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "dinner",
+    "meal-planning",
+    "recipe",
+    "food"
+  ],
+  "license": "MIT"
+}
